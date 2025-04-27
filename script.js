@@ -141,7 +141,7 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Create a temporary link element
             const link = document.createElement('a');
-            link.href = 'assets/sammy-lusasi-cv.pdf'; // Update with your actual CV path
+            link.href = 'cv.pdf'; // Update with your actual CV path
             link.download = 'Sammy-Lusasi-CV.pdf';
             document.body.appendChild(link);
             link.click();
